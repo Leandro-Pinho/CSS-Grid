@@ -61,3 +61,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 [Leandro Pinho](https://github.com/Leandro-Pinho/)  
 Feel free to reach out if you have any questions or suggestions!
+```
+
+### Customization
+
+- Replace placeholders like `yourusername` and `Your Name` with your actual GitHub username and name.
+- Add screenshots or GIFs to showcase the project.
