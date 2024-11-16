@@ -247,6 +247,15 @@ padding-top: 30px;
   grid-row: 7/11;
 }
 
+@media (max-width: 375px) {
+  .main {
+    display: block;
+  }
+  .main > div {
+   margin-top: 20px;
+  }
+}
+
 /* footer  */
 .attribution {
   font-size: 11px;
