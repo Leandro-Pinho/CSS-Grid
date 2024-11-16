@@ -15,6 +15,7 @@ p {
   --Purple-100: hsl(254, 88%, 90%);
   --Purple-500: hsl(256, 67%, 59%);
   --Yellow-100: hsl(31, 66%, 93%);
+  --Yellow-200: #f7eaf5;
   --Yellow-500: hsl(39, 100%, 71%);
   --White: hsl(0, 0%, 100%);
   --Black: hsl(0, 0%, 7%);
@@ -36,8 +37,8 @@ body {
   grid-template-columns: repeat(4, 1fr);
   max-width: 1200px;
   margin: 0 auto;
-  gap: 10px;
-  background: tomato;
+  gap: 20px;
+  /* background: tomato; */
 }
 
 .card1,
@@ -46,7 +47,7 @@ body {
 }
 .card2,
 .card6 {
-  background-color: var(--White);
+  background-color: #fbf5f9;
 }
 .card3,
 .card8 {
@@ -69,12 +70,13 @@ body {
 }
 .card1 h2 {
   font-size: 4rem;
+  line-height: 4rem;
 }
+
 .card1 img {
   max-width: 200px;
 }
 .card1 span {
-  /* background-color: antiquewhite; */
   color: var(--Yellow-500);
 }
 
@@ -106,11 +108,81 @@ body {
   line-height: 2rem;
 }
 
-
-
-.card5 {
-  display: flex;
+/* style card 4 */
+.card4 {
+  padding: 20px 20px 0 20px;
+  overflow: hidden;
 }
+
+.card4 h2 {
+  font-size: 2.3rem;
+  line-height: 2rem;
+}
+
+.card4 img {
+  width: 170%;
+}
+
+/* style card 5 */
+.card5 {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card5 img {
+  width: 48%;
+}
+
+.card5 h2 {
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+  color: var(--White);
+}
+
+/* style card 6 */
+.card6 {
+  padding: 20px;
+}
+
+.card6 span {
+  font-size: 4rem;
+}
+
+.card6 img {
+  width: 90%;
+}
+
+/* style card 7 */
+.card7 {
+  padding: 20px;
+}
+
+.card7 h2 {
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+}
+
+.card7 h2 span {
+  color: var(--Purple-500);
+}
+
+.card7 img {
+  width: 90%;
+}
+
+/* style card 8 */
+.card8 {
+  padding: 20px;
+}
+
+.card8 h2 {
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+}
+
+
+/* ----------- */
 
 .main > div {
   border-radius: 10px;
