@@ -1,12 +1,5 @@
-# Frontend Mentor - Bento grid
-
-![Design preview for the Bento grid coding challenge](./preview.jpg)
-
 ## Welcome! 👋
 
-### README.md
-
-```markdown
 # Static and Responsive Web Page using CSS Grid
 
 This project demonstrates a static and responsive web page built using **HTML5** and **CSS3** with a focus on **CSS Grid** for layout management. The page is designed to provide a seamless user experience across various devices, from desktops to smartphones.
@@ -25,8 +18,8 @@ This project demonstrates a static and responsive web page built using **HTML5**
 
 ## Project Structure
 
+
 ```
-.
 ├── index.html          # Main HTML file
 ├── css/
 │   └── style.css       # Main stylesheet
@@ -37,12 +30,12 @@ This project demonstrates a static and responsive web page built using **HTML5**
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/static-responsive-page.git
+   git clone https://github.com/Leandro-Pinho/CSS-Grid/
    ```
 
 2. Navigate to the project folder:
    ```bash
-   cd static-responsive-page
+   cd CSS-Grid
    ```
 
 3. Open `index.html` in your preferred browser.
@@ -57,7 +50,8 @@ This project demonstrates a static and responsive web page built using **HTML5**
 
 ## Screenshots
 
-_Include screenshots of the project here._
+![Design preview for the Bento grid coding challenge](./design/desktop-design.jpg)
+![Design preview for the Bento grid coding challenge](./design/mobile-design.jpg)
 
 ## License
 
@@ -65,11 +59,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-[Your Name](https://github.com/yourusername)  
+[Leandro Pinho](https://github.com/Leandro-Pinho/)  
 Feel free to reach out if you have any questions or suggestions!
-```
-
-### Customization
-
-- Replace placeholders like `yourusername` and `Your Name` with your actual GitHub username and name.
-- Add screenshots or GIFs to showcase the project.
