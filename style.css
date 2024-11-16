@@ -188,7 +188,7 @@ body {
 }
 
 .card7 img {
-padding-top: 30px;
+  padding-top: 30px;
   width: 90%;
 }
 
@@ -203,7 +203,7 @@ padding-top: 30px;
   font-weight: 600;
 }
 .card8 img {
-padding-top: 30px;
+  padding-top: 30px;
   /* width: 90%; */
 }
 
@@ -252,7 +252,78 @@ padding-top: 30px;
     display: block;
   }
   .main > div {
-   margin-top: 20px;
+    margin-top: 20px;
+  }
+  .card1 span {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+    padding: 40px 0 20px;
+  }
+  .card1 p {
+    padding-bottom: 20px;
+  }
+
+  .card2 img {
+    width: 110%;
+  }
+
+  .card2 span {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .card3 span {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .card3 img {
+    margin-top: 15px;
+  }
+
+  .card4 span {
+    font-size: 1.5rem;
+  }
+
+  .card4 img {
+    width: 100%;
+  }
+
+  .card4 p {
+    text-align: center;
+  }
+
+  .card5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--White);
+  }
+  .card5 img {
+    width: 80%;
+  }
+  .card5 span {
+    padding-top: 20px;
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+  }
+  
+  .card7 span{
+    font-size: 1.9rem;
+  }
+
+  .card7 img {
+    width: 65%;
+    padding-bottom: 20px;
+  }
+  .card8 span{
+    font-size: 1.9rem;
+  }
+
+  .card8 img {
+    width: 80%;
   }
 }
 
